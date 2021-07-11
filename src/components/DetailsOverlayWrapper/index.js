@@ -6,7 +6,7 @@ import Animated, {
   withTiming,
   runOnJS,
 } from 'react-native-reanimated';
-import DetailsOverlay from '../DetailsOverlay';
+import DetailsOverlay from './DetailsOverlay';
 import styles from './styles';
 
 export const DetailsOverlayContext = createContext({
@@ -21,6 +21,7 @@ const opacityAnimationConfig = {
 const DetailsOverlayWrapper = ({ children }) => {
   const opacity = useSharedValue(0);
   const [overlayDetails, setOverlayDetails] = useState(null);
+
   const animatedStyles = useAnimatedStyle(() => {
     return {
       opacity: opacity.value,

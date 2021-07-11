@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
-import colors from '../../assets/colors';
-import { scale } from '../../utilities/Scaling';
+import colors from '../../../assets/colors';
+import { scale } from '../../../utilities/Scaling';
 export default StyleSheet.create({
   overlayContainerStyle: {
     flex: 1,
