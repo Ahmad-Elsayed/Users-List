@@ -1,13 +1,10 @@
-import { StyleSheet, Platform } from 'react-native';
-import colors from '../../assets/colors';
+import { StyleSheet } from 'react-native';
 import { scale, verticalScale } from '../../utilities/Scaling';
 
 export default StyleSheet.create({
   containerStyle: {
-    backgroundColor: colors.card,
     borderRadius: scale(6),
     borderWidth: 1,
-    borderColor: colors.border,
     paddingHorizontal: scale(12),
     paddingVertical: verticalScale(8),
     flexDirection: 'row',
@@ -24,11 +21,9 @@ export default StyleSheet.create({
   },
   titleStyle: {
     fontSize: scale(16),
-    color: colors.primary,
     fontWeight: '600',
   },
   descriptionStyle: {
-    color: colors.secondary,
     fontSize: scale(13),
     marginTop: verticalScale(4),
     fontWeight: '300',

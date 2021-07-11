@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { scale, verticalScale } from '../../../utilities/Scaling';
-import colors from '../../../assets/colors';
+import { scale, verticalScale } from '../../utilities/Scaling';
 
 export default StyleSheet.create({
   containerStyle: {
@@ -17,7 +16,6 @@ export default StyleSheet.create({
     textAlign: 'center',
     fontSize: scale(14),
     fontWeight: '500',
-    color: colors.primary,
   },
   detailsItemStyle: {
     flexDirection: 'row',
@@ -25,7 +23,6 @@ export default StyleSheet.create({
     paddingHorizontal: scale(7),
     paddingVertical: verticalScale(10),
     borderBottomWidth: 1,
-    borderBottomColor: colors.border,
   },
   detailsContainerStyle: {
     paddingTop: verticalScale(30),

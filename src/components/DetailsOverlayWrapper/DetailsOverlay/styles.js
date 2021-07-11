@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import colors from '../../../assets/colors';
 import { scale } from '../../../utilities/Scaling';
 export default StyleSheet.create({
   overlayContainerStyle: {
@@ -7,8 +6,6 @@ export default StyleSheet.create({
   },
   pressableStyle: {
     flex: 1,
-    width: '100%',
-    height: '100%',
   },
   contentStyle: {
     position: 'absolute',
@@ -16,7 +13,6 @@ export default StyleSheet.create({
     bottom: '10%',
     left: '10%',
     right: '10%',
-    backgroundColor: colors.background,
     borderRadius: scale(15),
   },
 });

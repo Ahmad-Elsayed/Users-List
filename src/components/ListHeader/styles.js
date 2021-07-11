@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import colors from '../../assets/colors';
 import { scale, verticalScale } from '../../utilities/Scaling';
 
 export default StyleSheet.create({
@@ -9,6 +8,5 @@ export default StyleSheet.create({
   titleStyle: {
     fontSize: scale(24),
     fontWeight: '600',
-    color: colors.primary,
   },
 });
