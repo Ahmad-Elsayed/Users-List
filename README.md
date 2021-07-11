@@ -1,5 +1,10 @@
 # Users-List
 
+>## Overview:
+React native application that diplays a user list and user details. The app uses open source API from https://randomuser.me/ to fetch random users data.
+<br/>
+<br/>
+
 >## 🚀 Installation:
 
 - clone the repo to your local machine.
